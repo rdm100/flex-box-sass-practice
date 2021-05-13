@@ -174,3 +174,13 @@
   color: var(--color-grey-light-4);
   padding: 2.5rem;
 }
+
+// gallery
+.gallery {
+  display: flex;
+  
+  &__photo {
+    width: 100%;
+    display: block;
+  }
+}
