@@ -1,3 +1,4 @@
+
 .container {
   max-width: 120rem;
   margin: 8rem auto;
@@ -10,6 +11,9 @@
 .header {
   height: 7rem;
   background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .content {
