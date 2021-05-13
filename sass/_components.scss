@@ -63,6 +63,11 @@
 .user-nav {
   display: flex;
   align-items: center;
+
+  & > * {
+    padding: 0 2rem;
+    cursor: pointer;
+  }
   &__icon-box {
     
   }

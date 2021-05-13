@@ -106,6 +106,9 @@ body {
 .user-nav {
   display: flex;
   align-items: center; }
+  .user-nav > * {
+    padding: 0 2rem;
+    cursor: pointer; }
   .user-nav__icon {
     height: 2.25rem;
     width: 2.25rem; }
