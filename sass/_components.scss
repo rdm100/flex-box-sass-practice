@@ -192,11 +192,16 @@
   align-items: center;
   
   &__heading {
-
+    font-size: 2.25rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1.5rem;
   }
 
   &__stars {
     margin-right: auto;
+    display: flex;
   }
 
   &__icon-star,
