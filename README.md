@@ -6,6 +6,9 @@ No bootstrap was used for the layout only flex box and Sass.
 
 The page is responsive and include some CSS animations on the buttons when you click or hover over them.
 
+## To see the webpage deployed click the link below
+
+`https://rdm100.github.io/flex-box-sass-practice/`
 
 ## To run application
 To run the application locally you will need to have Node installed.
