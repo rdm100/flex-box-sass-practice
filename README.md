@@ -15,7 +15,7 @@ To run the application locally you will need to have Node installed.
 
 After cloning the repository navigate to the console/terminal to the root directory and run the command npm run start
 
-This should open your browser `http://127.0.0.1:8080/` where you can see the web page.
+This should open your browser to `http://127.0.0.1:8080/` where you can see the web page.
 
 ## Screenshots
 
