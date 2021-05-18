@@ -8,7 +8,7 @@ The page is responsive and include some CSS animations on the buttons when you c
 
 ## To see the webpage deployed click the link below
 
-`https://rdm100.github.io/flex-box-sass-practice/`
+https://rdm100.github.io/flex-box-sass-practice/
 
 ## To run application
 To run the application locally you will need to have Node installed.
