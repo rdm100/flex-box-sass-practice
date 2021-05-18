@@ -62,7 +62,9 @@ body {
   align-items: center; }
   @media only screen and (max-width: 31.25em) {
     .header {
-      flex-wrap: wrap; } }
+      flex-wrap: wrap;
+      height: 11rem;
+      align-content: space-around; } }
 
 .content {
   display: flex; }
@@ -127,7 +129,8 @@ body {
   @media only screen and (max-width: 31.25em) {
     .search {
       order: 1;
-      flex: 0 0 100%; } }
+      flex: 0 0 100%;
+      background-color: var(--color-grey-light-2); } }
   .search__input {
     font-family: inherit;
     font-size: inherit;
