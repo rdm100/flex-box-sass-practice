@@ -4,7 +4,7 @@ This project uses SASS, HTML and npm to create a responsive fictional travel web
 
 No bootstrap was used for the layout only flex box and Sass.
 
-The page is responsive and include some CSS animations on the buttons when you click or hover over them.
+The page is responsive and include some CSS animations on the buttons when you click or hover over them and animated caption that appears when you hover over the gallery photos.
 
 ## To see the webpage deployed click the link below
 
