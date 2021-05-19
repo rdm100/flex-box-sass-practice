@@ -220,10 +220,47 @@
 // gallery
 .gallery {
   display: flex;
+
+  &__item {
+    position: relative;
+  }
   
-  &__photo {
+  &__photo-1,
+  &__photo-2,
+  &__photo-3 {
     width: 100%;
     display: block;
+  }
+
+  &__caption-1, 
+  &__caption-2, 
+  &__caption-3 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+    height: 0;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(235,47,100,.8);    
+    transform: translate(0,-100%);
+    visibility: hidden;
+    transition: all .6s;
+  }
+
+  &__photo-1:hover + &__caption-1 {
+    height: 20%;
+    visibility: visible;
+  }
+
+  &__photo-2:hover + &__caption-2 {
+    height: 20%;
+    visibility: visible;
+  }
+
+  &__photo-3:hover + &__caption-3 {
+    height: 20%;
+    visibility: visible;
   }
 }
 
