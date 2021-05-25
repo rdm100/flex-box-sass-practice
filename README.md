@@ -1,6 +1,6 @@
 # Onlineshop
 
-This project uses SASS, HTML and npm to create a responsive fictional travel website.
+This project uses SASS, BEM, HTML and npm to create a responsive fictional travel website.
 
 No bootstrap was used for the layout only flex box and Sass.
 
